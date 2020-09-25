@@ -1,0 +1,28 @@
+/*--------Ubicación--------*/
+$absolute: absolute;
+$relative:relative;
+$left:left;
+$right: right;
+
+/*--------Colores--------*/
+$gris_oscuro: #5d5d5d;
+$naranja: #fe9b00;
+$negro: #090909;
+
+$margin: 0;
+$padding: 0;
+
+$transform: uppercase;
+
+h2,h3{
+    text-transform: $transform;
+    color: $negro;
+    padding-bottom: 12px;
+    background-image: url(../img/arrow.png);
+    background-repeat: no-repeat;
+}
+p{
+    color: $gris_oscuro;
+    font-size: 12px;
+    line-height: 15px;
+}
